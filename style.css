@@ -1,3 +1,8 @@
+* {
+  margin: none;
+  padding: none;
+}
+
 body {
   margin: none;
   margin-bottom: 0;
@@ -43,6 +48,16 @@ main {
   justify-content: space-between;
 }
 
+.text {
+  text-align: center;
+  display: flex;
+
+}
+
+.text div {
+  flex-direction: column;
+  margin-left: 71px;
+}
 
 h1 {
   font-family: 'JetBrains Mono', monospace;
@@ -67,7 +82,7 @@ p {
   text-align: center;
   font-size: 16px;
   line-height: 28px;
-  
+  margin-bottom: 0;
 }
 
 #img1 {
@@ -105,9 +120,11 @@ p span {
 
   padding-left: 397px;
   padding-top: 25px;
+  margin: 0;
 }
 
 #padlock {
   position: absolute;
-  padding-bottom: 27px;
+  padding-bottom: 20px;
+  margin: 0;
 }
