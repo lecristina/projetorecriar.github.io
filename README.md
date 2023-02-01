@@ -1,2 +1,2 @@
 # projetorecriar
-https://lecristina.github.io/projetorecriar/
+https://lecristina.github.io/projetorecriar.io/
