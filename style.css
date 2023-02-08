@@ -1,40 +1,26 @@
-* {
-  margin: none;
-  padding: none;
-}
-
 body {
-  margin: none;
-  margin-bottom: 0;
+  margin: 0;
 
   background: #2C2B3D;
+
+  min-height: 100vh;
 }
 
 .page {
-  width: 1280px;
-  padding: 0;
-
-  margin: 71px 98px auto 20px;
-  
+  width: 1250px;
+  padding-top: 71px;
+  margin: 0px 99px 0px 89px;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
   font-family: 'JetBrains Mono', monospace;
 
-  padding: 0px 98px 101px 99px;
-
-}
-
-ul {
-  display: flex;
-  gap: 64px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  margin-left: 99px;
+  width: 1083px;
 }
 
 a {
@@ -42,21 +28,36 @@ a {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+  padding: 0;
+}
+
 main {
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 99px;
+}
+
+.text {
+  width: 1092px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.text {
-  text-align: center;
-  display: flex;
+.text div {
+  width: 604px;
+  margin-left: 77px;
 
+  flex-direction: column;
 }
 
-.text div {
-  flex-direction: column;
-  margin-left: 71px;
+h1, span {
+  width: 614px;
 }
 
 h1 {
@@ -68,6 +69,7 @@ h1 {
   font-size: 36px;
   line-height: 40px;
   margin-bottom: 60px;
+  margin-top: 107px;
 }
 
 h1 span {
@@ -82,11 +84,13 @@ p {
   text-align: center;
   font-size: 16px;
   line-height: 28px;
+
   margin-bottom: 0;
+  margin-top: 0px;
 }
 
 #img1 {
-  padding-left: 99px;
+  padding-top: 101px;
 }
 
 p span { 
@@ -95,17 +99,29 @@ p span {
   font-weight: bold;
 }
 
-#line {
-  width: 568px;
-  height: 0;
 
-  margin: 157px auto 0;
-
-  border: 1px solid #00BFA6;
+section {
+  width: 904px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 356px;
+  align-items: center;
 }
 
 #footer {
   display: flex;
+  margin: 0;
+}
+
+#line {
+  width: 568px;
+  height: 0;
+
+  border: 1px solid #00BFA6;
+  margin-top: 157px;
+
+  display: flex;
+  margin-left: 340px;
   
 }
 
@@ -114,17 +130,17 @@ p span {
 
   color: #FFFFFF;
 
+  width: 568px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
 
-  padding-left: 397px;
-  padding-top: 25px;
-  margin: 0;
+  margin-top: 27px;
+  padding-left: 285px;
 }
 
 #padlock {
-  position: absolute;
-  padding-bottom: 20px;
+  position: relative;
   margin: 0;
 }
